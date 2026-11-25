@@ -164,7 +164,8 @@ Use either the app version or an installation made with the InstallManager for t
 **Linux**
 
 - 64-bit Linux (x86_64) with glibc 2.31 or newer, for example Ubuntu 20.04 or Debian 11 and newer
-- X11 or Wayland desktop session for the desktop app. The server also runs as a service on computers without a screen
+- X11 or Wayland desktop session, GTK 3 and WebKitGTK (libwebkit2gtk 4.1 or 4.0) for the desktop app. The DEB and RPM packages install these libraries automatically if they are missing
+- The server also runs as a service on computers without a screen
 
 **Browser (web interface of your own Mailshines server)**
 
